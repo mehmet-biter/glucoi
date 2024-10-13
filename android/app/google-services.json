@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15813017454",
+    "project_id": "gittiom-4fc4e",
+    "storage_bucket": "gittiom-4fc4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15813017454:android:5cfd1217299e9fd0168b7f",
+        "android_client_info": {
+          "package_name": "com.gittiom.exchange.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD99_b5Vq9XFiTKpT_LTGRgExihGZ2SShw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
