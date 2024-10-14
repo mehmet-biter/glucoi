@@ -32,10 +32,10 @@ class SplashScreenState extends State<SplashScreen> {
                   /// const AppLogo(),
                   showImageAsset(
                       imagePath: AssetConstants.icLogoTransparentNoPadding, height: context.width / 4, width: context.width / 4, color: Colors.white),
-                  Padding(
-                    padding: const EdgeInsets.all(Dimens.paddingLargeDouble),
-                    child: textAutoSizeTitle('splashLogoSubText'.tr, color: Colors.white),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.all(Dimens.paddingLargeDouble),
+                  //   child: textAutoSizeTitle('splashLogoSubText'.tr, color: Colors.white),
+                  // ),
                 ],
               ),
             );

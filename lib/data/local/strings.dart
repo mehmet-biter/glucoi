@@ -10,12 +10,12 @@ class Strings extends Translations {
           ///OnBoarding
           "Skip": "Skip",
           "Next": "Next",
-          "kOnBoardingTitle_0": "Welcome to Gittiom",
-          "kOnBoardingTitle_1": "Welcome to Gittiom",
-          "kOnBoardingTitle_2": "Welcome to Gittiom",
-          "kOnBoardingDescription_0": "Welcome to Gittiom buy, store, buy your giftcard and pay bills.",
-          "kOnBoardingDescription_1": "Welcome to Gittiom buy, store, buy your giftcard and pay bills.",
-          "kOnBoardingDescription_2": "Welcome to Gittiom buy, store, buy your giftcard and pay bills.",
+          "kOnBoardingTitle_0": "Welcome to Glucoi",
+          "kOnBoardingTitle_1": "Welcome to Glucoi",
+          "kOnBoardingTitle_2": "Welcome to Glucoi",
+          "kOnBoardingDescription_0": "Welcome to Glucoi buy, store, buy your giftcard and pay bills.",
+          "kOnBoardingDescription_1": "Welcome to Glucoi buy, store, buy your giftcard and pay bills.",
+          "kOnBoardingDescription_2": "Welcome to Glucoi buy, store, buy your giftcard and pay bills.",
 
           ///Auth
           "Sign In": "Sign In",

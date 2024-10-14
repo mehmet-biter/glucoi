@@ -42,6 +42,10 @@ class GiftCardsScreenState extends State<GiftCardsScreen> {
             padding: const EdgeInsets.only(top: Dimens.paddingMainViewTop),
             child: Column(
               children: [
+                // appBarBackWithActions(
+                //     title: "Gift Cards".tr,
+                //     actionIcons: [AssetConstants.icInfoCircle],
+                //     onPress: (index) => Get.to(() => GiftCardsFAQScreen(gcData: _controller.giftCardsData.value))),
                 appBarBackWithActions(
                     title: "Gift Cards".tr,
                     actionIcons: [AssetConstants.icInfoCircle],

@@ -5,6 +5,7 @@ import 'package:tradexpro_flutter/data/local/constants.dart';
 import 'package:tradexpro_flutter/data/models/settings.dart';
 import 'package:tradexpro_flutter/helper/app_helper.dart';
 import 'package:tradexpro_flutter/helper/app_widgets.dart';
+import 'package:tradexpro_flutter/ui/features/bottom_navigation/activity/activity_screen.dart';
 import 'package:tradexpro_flutter/ui/features/side_navigation/referrals/referrals_screen.dart';
 import 'package:tradexpro_flutter/ui/features/side_navigation/top_up/top_up_screen.dart';
 import 'package:tradexpro_flutter/ui/features/side_navigation/utility_bills/utility_bills_screen.dart';
@@ -85,8 +86,8 @@ class _LandingScreenState extends State<LandingScreen> with SingleTickerProvider
                       if (lData.landingSecondSectionStatus == 1 && lData.bannerList.isValid) _bannerListView(lData.bannerList!),
                       vSpacer10(),
                       if (lData.landingFirstSectionStatus == 1) _topTitleView(lData),
-                      if (lData.announcementList.isValid) _announcementListView(lData.announcementList!),
-                      if (lData.landingThirdSectionStatus == 1) _marketTrendListView(),
+                      // if (lData.announcementList.isValid) _announcementListView(lData.announcementList!),
+                      // if (lData.landingThirdSectionStatus == 1) _marketTrendListView(),
                     ],
                   ),
             if (!hasUser) signInNeedView(isDrawer: true),
@@ -165,7 +166,7 @@ class _LandingScreenState extends State<LandingScreen> with SingleTickerProvider
         //     title: "Utility Bill".tr,
         //     icon: Icons.receipt_long_outlined,
         //     onTap: () => checkLoggedInStatus(context, () => Get.to(() => const UtilityBillsScreen()))),
-        NavigationIconView(title: "Reports".tr, icon: Icons.work_history_outlined, onTap: () => getRootController().changeBottomNavIndex(4, false)),
+        NavigationIconView(title: "Reports".tr, icon: Icons.work_history_outlined, onTap: () => Get.to(ActivityScreen())),
 
     NavigationIconView(
               title: "Referral".tr,
